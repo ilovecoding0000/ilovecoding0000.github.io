@@ -1,0 +1,99 @@
+p{
+  color: red;
+  font-size: 20px;
+}
+
+
+.listitem{
+	color:blue;
+	font-size:14px;
+}
+
+
+#background{
+	background-color:orange;
+}
+
+
+#submit{
+	height:10%;
+	width:20%;
+	color:green;
+	background-color:yellow;
+	border-radius:15px;
+}
+
+header{
+	height:104px;
+	width:1000px;
+	margin-bottom:25px;
+}
+
+footer{
+	font-size:10px;
+	text-decoration-color:#1a1aff;
+}
+
+.wrap-trivia{
+	height-width:50%;
+	border:5px double green;
+	padding-left:-30px
+	margin-bottom:-30px;
+}
+
+#button{
+	font-size:23px;
+}
+
+.year{
+	color:#9de293;
+	text-decoration: underline;
+}
+
+#Jarell{
+	height-width:50%;
+	background-color:green;
+	display:inline-block}
+
+#Is{
+	height-width:50%;
+	background-color:purple;
+	display:inline-block;
+}
+
+#SFM{
+	background-color:grey;
+	display:inline-block;
+}
+
+.navitem{
+	list-style-type:none;
+	display:inline;
+	padding-right:1.5em;
+}
+
+#navmenu{
+	width:250px;
+	height:30px;
+	margin:auto;
+	background-color:green;
+
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color:brown;
+}
+a:hover{
+	color:purple;
+}
+a:active{
+	color:grey;
+}
+
+.wrap-nav{
+	width-height:50%;
+	border:3px green;
+	background-color:black;
+}
