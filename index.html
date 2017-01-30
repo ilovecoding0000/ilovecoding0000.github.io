@@ -7,10 +7,18 @@
 			return text;
 		}
 
+		function banner1(){
+			var text = confirm("Ready to leave? Click OK to do so!")
+			return text;
+		}
+
+		function banner2(){
+			var text = confirm("Subscribe to me on Youtube!")
+			return text;
+		}
 
 
 		function answer(){
-
 			var radio = document.getElementsByName("trivia"); 
 			var selection = false; 
 			var message = "";
@@ -43,10 +51,10 @@
 		<a href="http://plus.google.com/u/0/105997714782251587981" onclick="return banner()"><header id="header">My Google+ Page!</header></a>
 	<nav class="wrap-nav">
 		<ul class="navmenu">
-			<li class="navitem"><a href="http://roblox.com">Play ROBLOX!</a></li>
-			<li class="navitem"><a href="http://store.steampowered.com">Or, play over 6000+ games!</a></li>
-			<li class="navitem"><a href="http://plus.google.com/u/0/105997714782251587981">Follow me on Google+!</a></li>
-			<li class="navitem"><a href="http://youtube.com/channel/UCTaLvQB-61rQcMGkmOlBZFA">Subscribe to me on YouTube!</a></li>
+			<li class="navitem"><a href="http://roblox.com" onclick="return banner1()">Play ROBLOX!</a></li>
+			<li class="navitem"><a href="http://store.steampowered.com" onclick="return banner1()">Or, play over 6000+ games!</a></li>
+			<li class="navitem"><a href="http://plus.google.com/u/0/105997714782251587981" onclick="return banner()">Follow me on Google+!</a></li>
+			<li class="navitem"><a href="http://youtube.com/channel/UCTaLvQB-61rQcMGkmOlBZFA" onclick="return banner2()">Subscribe to me on YouTube!</a></li>
 		</ul>
 	</nav>
 		<title>Answer This Question</title>
@@ -67,9 +75,9 @@
 	<li id="listitem">I love coding</li><br>
 	<li id="listitem">I love SFM (Source Filmaker)</li><br>
 	<li id="listitem">Finally, I love FNaF, Dragonball Xenoverse, and Garry's Mod</li><br>
-	<div id="Jarell">I love coding its awesome!</div><br>
-	<div id="Is">I made a video yesterday, but it didn't upload. TOOK ALL NIGHT!</div><br>
-	<div id="Awesome">Check out my video <span id="SFM">below!</span></div><br>
+	<div id="Jarell">I love coding, it's awesome!</div><br>
+	<div id="Is">I made a video yesterday, but it't not uploaded yet, took ALLL NIGHT!!!!</div><br>
+	<div id="Awesome">Check out my video below! Like, comment, subscribe! <span id="SFM"></span></div><br>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/iJKBx508NCI" frameborder="0"></iframe>
 <footer>Copyright Jarell ©2017. All Rights Reserverd.</footer>
 	</body>
